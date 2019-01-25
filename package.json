@@ -1,0 +1,32 @@
+{
+    "name": "redis_task",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "webpack": "./node_modules/webpack/bin/webpack.js",
+        "start:dev": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.3",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.3",
+        "express": "^4.16.4",
+        "morgan": "^1.9.1",
+        "nodemon": "^1.18.9",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.2.2",
+        "reactstrap": "^5.0.0",
+        "redis": "^2.8.0",
+        "webpack": "^3.11.0"
+    }
+}
