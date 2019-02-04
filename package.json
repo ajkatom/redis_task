@@ -7,11 +7,11 @@
         "postinstall": "npm run webpack",
         "webpack": "./node_modules/webpack/bin/webpack.js",
         "start:dev": "PORT=3000 npm run webpack -- -w & nodemon server.js --ignore dist/ --ignore public/"
-
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "async-redis": "^1.1.5",
         "axios": "^0.18.0",
         "babel-core": "^6.26.0",
         "babel-loader": "^7.1.3",
